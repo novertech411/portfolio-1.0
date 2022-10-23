@@ -1,0 +1,55 @@
+.project.body {
+  margin-top: 214px;
+}
+
+.project.box {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card.body {
+  width: 340px;
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  color: black;
+  margin: 50px auto;
+}
+.card.image img{
+  width:100%;
+}
+
+.card.text {
+  width: 300px;
+  margin: auto;
+}
+.card.body h3 {
+color: black;
+font-size: 28px;
+margin-bottom: 17px;
+ 
+}
+
+.card.text {
+  font-weight: lighter;
+  
+}
+
+.card.text .first{
+ font-size: 21px; 
+}
+.card.preview {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.card.preview a {
+  margin: 0px 12px;
+  color: black;
+  font-size: 18px;
+}
+.card.preview img {
+  margin: 0 auto;
+}

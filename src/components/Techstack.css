@@ -1,0 +1,21 @@
+.Stack {
+  width: 100%;
+}
+
+.frameworks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 147px;
+}
+ .frameworks  img  {
+    height:85px;
+    
+}
+.frameworks.two{
+    margin-top:74px ;
+}
+
+ .sass , .tail{
+    
+    width:80px;
+}

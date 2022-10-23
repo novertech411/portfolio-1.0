@@ -1,0 +1,43 @@
+nav{
+    display: flex;
+    
+}
+h3 strong{
+    font-size: 27px;
+}
+  .logo h3 {
+       
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    margin: 18px 0px;
+    margin-left: 25%;
+    text-decoration: none;
+
+} 
+
+
+.links li {
+    padding: 0px 24px;
+}
+ .links li , .links li a {
+    list-style-type: none;
+    text-decoration: none;
+    margin: auto;
+    color: #666666;
+
+ }
+ 
+
+.contact{
+    margin: auto;
+} 
+
+.contact a{
+    margin : 0px 14px;
+}

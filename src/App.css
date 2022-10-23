@@ -1,0 +1,21 @@
+body {
+  background: #ffffff;
+}
+
+h2 {
+  width: 355px;
+  margin: auto;
+  font-size: 49px;
+  color: #42446e;
+  text-align: center;
+}
+
+h4 {
+  width: 719px;
+  margin: auto;
+  margin-top: 46px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 400;
+  color: #666666;
+}
