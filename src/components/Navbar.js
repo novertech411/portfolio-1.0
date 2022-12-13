@@ -1,11 +1,14 @@
+import '../components/Navbar.css'
+import './../App'
 import twitter from '../assets/images/twetter.png'
 import git from '../assets/images/git.svg'
 import linkedin from '../assets/images/Vector.png'
-import '../components/Navbar.css'
+import { FaMoon, FaSun } from "react-icons/fa";
 
-const Navbar = () => {
+
+const Navbar = ({ myTheme, onToggleTheme, onSwitch }) => {
   return (
-    <nav className="navbar">
+    <nav className="navbar"   data-theme={myTheme} >
       <div className="logo">
         <h3>
           
@@ -37,11 +40,19 @@ const Navbar = () => {
       <div className="contact">
         <a href="http://" target="_blank" rel="noopener noreferrer"> <img src={twitter} alt="" /></a>
         <a href="http://" target="_blank" rel="noopener noreferrer"><img src={git} alt="" /></a>
-        <a href="http://" target="_blank" rel="noopener noreferrer"> <img src={linkedin} alt="" /></a>
+        <a href="http://" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="" /></a>
                
         
        
       </div>
+
+      <div onClick={onToggleTheme}>
+          <span className="toggle-btn">
+            <FaMoon color="pink" size={16} />
+            <FaSun color="yellow" size={16} />
+            <div className={onSwitch ? "ball move" : "ball"}></div>
+          </span>
+        </div>
     </nav>
   );
 };

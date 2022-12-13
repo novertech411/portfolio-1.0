@@ -1,9 +1,39 @@
-body {
-  background: #ffffff;
+:root{
+  --color-white: #FFFFFF;
+  --color-dark: #191919;;
+  --icon-dark-shade: #666666;
+
+  --background: var(--color-white);
+  --foreground: var(--color-dark);
+  --icon-shade:   var(--icon-dark-shade);
 }
 
+/* Dark Mode Color Scheme*/
+[data-theme="dark"] {
+  --color-white: #FFFFFF;
+  --icon-light-shade: #d6d6d6;
+  --color-dark: #191919;
+  
+
+  --background: var(--color-dark);
+  --foreground: var(--color-white);
+  --icon-shade: var(--icon-light-shade);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background: var(--background);
+}
+
+
 h2 {
-  width: 355px;
+  
   margin: auto;
   font-size: 49px;
   color: #42446e;

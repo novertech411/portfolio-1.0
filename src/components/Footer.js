@@ -2,6 +2,7 @@ import twitter from '../assets/images/twetter.png'
 import git from '../assets/images/git.svg'
 import linkedin from '../assets/images/Vector.png'
 import "../components/Footer.css";
+import { FaMoon, FaSun } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer head">
