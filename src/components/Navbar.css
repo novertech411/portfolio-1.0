@@ -1,70 +1,62 @@
-nav{
-    display: flex;
- background:  var(--background);
- padding-top: 1rem;
-    
-}
-h3 strong{
-    font-size: 27px;
-}
-  .logo h3 {
-       
-    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.links{
-    display: flex;
-    flex-direction: row;
-    align-items: right;
-    margin: 18px 0px;
-    margin-left: 20%;
-    text-decoration: none;
 
-} 
-
+nav {
+  display: flex;
+  background: var(--background);
+  padding-top: 1rem;
+}
+h3 strong {
+  font-size: 27px;
+}
+.logo h3 {
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  margin: 18px 0px;
+  margin-left: 20%;
+  text-decoration: none;
+}
 
 .links li {
-    padding: 0px 24px;
+  padding: 0px 24px;
 }
-.links li a:hover{
-    border-bottom:3px solid var(--icon-shade) ;
+.links li a:hover {
+  border-bottom: 3px solid var(--icon-shade);
 }
 
-
- .links li , .links li a {
-    list-style-type: none;
-    text-decoration: none;
-    margin: auto;
-    color: var(--icon-shade);
-    font-weight: bold;
-    font-size: 20px;
-
- }
-
- 
-
-.contact{
-    margin: auto;
-} 
-
-.contact a{
-    margin : 0px 14px;
+.links li,
+.links li a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: auto;
+  color: var(--icon-shade);
+  font-weight: bold;
+  font-size: 20px;
 }
-.toggle-btn{
-    width: 45px;
-    height: 23px;
-    background: var(--icon-shade);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius:  50px;
-    padding: 3px;
-    position: relative;
+
+.contact {
+  margin: auto;
+}
+
+.contact a {
+  margin: 0px 14px;
+}
+.toggle-btn {
+  width: 45px;
+  height: 23px;
+  background: var(--icon-shade);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  padding: 3px;
+  position: relative;
   cursor: pointer;
   margin: 27px 0px;
-  
-
 }
 
 .ball {
@@ -78,6 +70,5 @@ h3 strong{
   transition: all 0.2s linear;
 }
 .move {
-    transform: translateX(22px);
-  }
-  
+  transform: translateX(22px);
+}

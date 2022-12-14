@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { useState } from "react";
+
 function App() {
   const [theme, setTheme] = useLocalStorage("theme", "light");
   const [switchBtn, setSwitchBtn ] = useState(false);
@@ -19,6 +20,7 @@ function App() {
  
   return (
     <div className="App"  data-theme={theme}>
+      
       <Navbar
         myTheme={theme}
         onToggleTheme={toggleTheme}
@@ -29,6 +31,7 @@ function App() {
       <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>
+    
     </div>
   );
 }

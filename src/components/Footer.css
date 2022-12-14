@@ -6,13 +6,13 @@ margin-top:7rem;
 .footer.first {
   display: flex;
   justify-content: space-between;
-  color: #42446e;
-  border-bottom: #42446e 0.5px solid;
+  color: var(--h2);
+  border-bottom: var(--h2) 0.5px solid;
 }
 
 .logo.name {
   width: 5rem;
-  color: #42446e;
+  color: var(--h2);
 }
 
 .footer.contactlink {
@@ -35,7 +35,7 @@ margin-top:7rem;
 }
 
 .logo.name h3 {
-  background: #42446e;
+  background: var(--h2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -58,11 +58,10 @@ margin-top:7rem;
 }
 .footer.nav li a {
   text-decoration: none;
-  color: #42446e;
-  margin-top: 20px 0px;
+  color: var(--h2);
 }
 .footer.nav .copyright{
-    color:#42446e;
+    color:var(--h2);
 }
 
 .footer.nav .copyright strong{

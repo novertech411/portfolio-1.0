@@ -30,9 +30,9 @@ const Techstack = () => {
           <img  class="tail" src={tailwind} alt="" srcset="" />
           <img class="sass" src={sass} alt="" srcset="" />
           <img src={git} alt="" srcset="" />
-          <img src={postman} alt="" srcset="" />
+          <img class="postman" src={postman} alt="" srcset=""  />
           <img src={vscode} alt="" srcset="" />
-          <img src={github} alt="" srcset="" />
+          <img class="github" src={github} alt="" srcset="" />
         </div>
       </div>
     </div>

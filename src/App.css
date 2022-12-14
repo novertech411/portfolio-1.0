@@ -1,22 +1,27 @@
-:root{
-  --color-white: #FFFFFF;
-  --color-dark: #191919;;
+:root {
+  --color-white: #ffffff;
+  --color-dark: #191919;
   --icon-dark-shade: #666666;
+  --h2: #42446e;
+  --h4: #666666;
+  --card-color: #ffff;
+  --p-color: black;
 
   --background: var(--color-white);
-  --foreground: var(--color-dark);
-  --icon-shade:   var(--icon-dark-shade);
+  --icon-shade: var(--icon-dark-shade);
 }
 
 /* Dark Mode Color Scheme*/
 [data-theme="dark"] {
-  --color-white: #FFFFFF;
-  --icon-light-shade: #d6d6d6;
+  --color-white: #ffffff;
+  --icon-light-shade: #cccccc;
   --color-dark: #191919;
-  
+  --h2: #cccccc;
+  --h4: #a7a7a7;
+  --card-color: #363636;
+  --p-color: #cccccc;
 
   --background: var(--color-dark);
-  --foreground: var(--color-white);
   --icon-shade: var(--icon-light-shade);
 }
 * {
@@ -26,26 +31,22 @@
   scroll-behavior: smooth;
 }
 
-
-body {
+.App {
   background: var(--background);
+  padding: 0% 7%;
 }
 
-
 h2 {
-  
   margin: auto;
   font-size: 49px;
-  color: #42446e;
+  color: var(--h2);
   text-align: center;
 }
 
 h4 {
-  width: 719px;
   margin: auto;
   margin-top: 46px;
-  font-size: 32px;
+  font-size: 36px;
   text-align: center;
-  font-weight: 400;
-  color: #666666;
+  color: var(--h4);
 }

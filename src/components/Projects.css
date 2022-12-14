@@ -11,7 +11,8 @@
   width: 340px;
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  color: black;
+  color:var(--p-color);
+  background:var(--card-color);
   margin: 50px auto;
 }
 .card.image img{
@@ -23,7 +24,7 @@
   margin: auto;
 }
 .card.body h3 {
-color: black;
+color: var(--p-color);
 font-size: 28px;
 margin-bottom: 17px;
  
@@ -47,7 +48,7 @@ margin-bottom: 17px;
 
 .card.preview a {
   margin: 0px 12px;
-  color: black;
+  color: var(--p-color);
   font-size: 18px;
 }
 .card.preview img {
