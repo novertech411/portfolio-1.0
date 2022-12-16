@@ -24,7 +24,7 @@ const Contact = () => {
               <div>
                 <BsTelephoneForward />
               </div>
-              <p>080853258344, 0983448417 </p>
+              <p> +234 704 545 9047 <br></br>  </p>
             </div>
           </div>
         </div>

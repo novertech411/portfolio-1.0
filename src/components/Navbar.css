@@ -1,8 +1,10 @@
-
 nav {
   display: flex;
   background: var(--background);
   padding-top: 1rem;
+}
+.logo {
+  padding-top: 0.5rem;
 }
 h3 strong {
   font-size: 27px;
@@ -24,8 +26,10 @@ h3 strong {
 .links li {
   padding: 0px 24px;
 }
-.links li a:hover {
-  border-bottom: 3px solid var(--icon-shade);
+.links li :hover {
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .links li,
@@ -71,4 +75,78 @@ h3 strong {
 }
 .move {
   transform: translateX(22px);
+}
+
+.buger{
+  position: absolute;
+  top: 5%;
+  left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+  
+ 
+}
+
+.buger div{
+  width: 2rem;
+  height: 0.25rem;
+  background: var();
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .links {
+    margin: 0% 0%;
+  }
+  .contact {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  .links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0rem;
+    height: 700px;
+    top: 5rem;
+    width: 100%;
+    background: var(--background);
+  
+  }
+  .links li{
+    padding: 2rem;
+    margin:  0rem auto;
+    min-height: 40px;
+  }
+
+  nav .contact{
+    position: absolute;
+    display: block;
+    top: 38rem ;
+    left: 17.5rem
+  } 
 }

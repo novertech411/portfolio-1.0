@@ -46,13 +46,19 @@ const Navbar = ({ myTheme, onToggleTheme, onSwitch }) => {
        
       </div>
 
-      <div onClick={onToggleTheme}>
+      <div className='button' onClick={onToggleTheme}>
           <span className="toggle-btn">
             <FaMoon color="pink" size={16} />
             <FaSun color="yellow" size={16} />
             <div className={onSwitch ? "ball move" : "ball"}></div>
           </span>
         </div>
+
+        <div className='buger'>
+      <div />
+      <div />
+      <div />
+    </div>
     </nav>
   );
 };

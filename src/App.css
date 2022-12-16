@@ -6,6 +6,8 @@
   --h4: #666666;
   --card-color: #ffff;
   --p-color: black;
+  --icon-contat: #42446e;
+
 
   --background: var(--color-white);
   --icon-shade: var(--icon-dark-shade);
@@ -20,6 +22,7 @@
   --h4: #a7a7a7;
   --card-color: #363636;
   --p-color: #cccccc;
+  --icon-contat: #cccccc;
 
   --background: var(--color-dark);
   --icon-shade: var(--icon-light-shade);
@@ -49,4 +52,9 @@ h4 {
   font-size: 36px;
   text-align: center;
   color: var(--h4);
+}
+@media (max-width: 1024px){
+  .App{
+    padding: 0% 2%;
+  }
 }

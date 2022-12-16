@@ -3,3 +3,21 @@
     justify-content: space-between;
     margin: 20% 0%;
 }
+
+.hero.bg h2{
+    text-align: left;
+    font-size:400% ;
+}
+
+.hero.avater{
+    text-align: center;
+}
+.hero.avater img{
+    width:90%;
+}
+
+h2 strong{
+    background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 200%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

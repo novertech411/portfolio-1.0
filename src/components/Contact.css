@@ -19,11 +19,11 @@ h3 {
 
 .contact.form {
   width: 450px;
-  background: white;
+  background: var(--card-color);
   padding-top: 1rem;
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  color: black;
+  color: var(--h2);
 }
 form {
   width: 400px;
@@ -35,6 +35,7 @@ textarea,
 button {
   color: #c4c4c4;
   border: 1px solid #c4c4c4;
+  background: var(--card-color);
   padding: 14px 9px;
   border-radius: 10px;
   margin: 12px 0px;
@@ -67,6 +68,10 @@ display: flex;
 justify-content: space-evenly;
 margin-top: 3rem;
 }
+.biodata.info p{
+  font-size: 30px;
+  color: var(--icon-contat);
+}
 
 
 .mail.address, .phone.num{
@@ -74,12 +79,15 @@ margin-top: 3rem;
   font-size: 20px;
 }
 .mail.address div, .phone.num div{
-  background: #42446e;
+  background: var(--icon-contat);
   margin: auto;
-  color:#fffafa;
+  margin-bottom: 2rem;
+  color:var(--background);
   width:70px;
   border-radius: 20%;
   padding-top: 15px;
   font-size: 3rem;
 
 }
+
+

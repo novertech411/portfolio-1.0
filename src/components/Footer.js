@@ -47,7 +47,9 @@ const Footer = () => {
 
         <div className="copyright"><p>Designed and built by <strong>Pavan MG</strong> with <strong>Love</strong> & <strong>Coffee</strong></p></div>
       </div>
+      <div className="king"></div>
     </div>
+    
   );
 };
 
