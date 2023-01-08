@@ -4,8 +4,10 @@
 
 .project.box {
   margin-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 .card.body {
   width: 340px;

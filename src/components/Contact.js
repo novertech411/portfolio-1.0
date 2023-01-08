@@ -9,6 +9,9 @@ const Contact = () => {
 
       <div className="contact data">
         <div className="contact biodata">
+          <div className="box">
+
+          
           <h4>
             Get in touch with me! Whether you want to learn about UX or need
             product design services let us help with your challenge.
@@ -26,6 +29,7 @@ const Contact = () => {
               </div>
               <p> +234 704 545 9047 <br></br>  </p>
             </div>
+          </div>
           </div>
         </div>
         <div className="contact form">

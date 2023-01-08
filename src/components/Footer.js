@@ -14,6 +14,7 @@ const Footer = () => {
         </div>
 
         <div className="footer contactlink">
+        
           <div className="phone"><p>+234704459047</p></div>
           <div className="mail"> <p>info@novertech4@gmail.com</p> </div>
           <div className="follow">

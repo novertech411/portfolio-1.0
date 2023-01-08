@@ -11,6 +11,7 @@ import { useState } from "react";
 function App() {
   const [theme, setTheme] = useLocalStorage("theme", "light");
   const [switchBtn, setSwitchBtn ] = useState(false);
+  
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
@@ -25,6 +26,7 @@ function App() {
         myTheme={theme}
         onToggleTheme={toggleTheme}
         onSwitch={switchBtn}
+        
       ></Navbar>
       <Herosection></Herosection>
       <Techstack></Techstack>

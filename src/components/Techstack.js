@@ -25,15 +25,16 @@ const Techstack = () => {
           <img src={react} alt="" srcset="" />
           <img src={redux} alt="" srcset="" />
           <img src={bootstrap} alt="" srcset="" />
-        </div>
-        <div className="frameworks two">
           <img  class="tail" src={tailwind} alt="" srcset="" />
           <img class="sass" src={sass} alt="" srcset="" />
           <img src={git} alt="" srcset="" />
           <img class="postman" src={postman} alt="" srcset=""  />
           <img src={vscode} alt="" srcset="" />
           <img class="github" src={github} alt="" srcset="" />
+        
         </div>
+        
+        
       </div>
     </div>
   );
