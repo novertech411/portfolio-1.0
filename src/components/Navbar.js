@@ -29,7 +29,7 @@ const Navbar = ({ myTheme, onToggleTheme, onSwitch }) => {
           <a href="/">About</a>
         </li>
         <li>
-          <a href="/">Tech Stack</a>
+          <a href="/"> <p> Tech Stack</p>  </a>
         </li>
         <li>
           <a href="/">Project</a>
@@ -41,7 +41,7 @@ const Navbar = ({ myTheme, onToggleTheme, onSwitch }) => {
 
       <div className="contact"     style={{
           width: open ? "100%" : "0",
-          opacity: open ? "1" : "0" ,
+         
         
         }}>
 

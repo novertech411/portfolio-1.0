@@ -1,51 +1,58 @@
-nav {
+.navbar {
   display: flex;
+  flex-direction: row;
   background: var(--background);
   padding-top: 1rem;
 }
-.logo {
+.navbar .logo {
   padding-top: 0.5rem;
 }
+.navbar .button{
+  display: block;
+  margin-left: 70%;
+}
+
 h3 strong {
   font-size: 27px;
 }
-.logo h3 {
+.navbar .logo h3 {
   background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.links {
+.navbar .links {
   display: flex;
   flex-direction: row;
-  align-items: right;
-  margin: 18px 0px;
+  justify-content: space-between;
+  margin: 15px 0px;
   text-decoration: none;
+  padding-left: 10%;
+  
 }
 
-.links li :hover {
+.navbar .links li :hover {
   background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.links li {
+.navbar .links li {
   list-style-type: none;
   text-decoration: none;
-  margin: 1rem;
+  margin: 1rem 1.5rem;
   font-weight: bold;
   font-size: 20px;
-  display: inline-block;
 }
 .links li a {
   text-decoration: none;
   color: var(--icon-shade);
-  display: block;
+  white-space: nowrap;
 }
 
 .navbar .contact {
-  margin: auto;
   display: flex;
   flex-direction: row;
+  display: none;
 }
 
 .navbar .contact li {
@@ -81,7 +88,6 @@ h3 strong {
 }
 
 @media (max-width: 1024px) {
-  
 }
 
 @media (max-width: 768px) {
@@ -94,10 +100,9 @@ h3 strong {
     position: absolute;
     display: flex;
     flex-direction: column;
-
-    padding: 1rem 0rem;
-    height: 50rem;
-
+    justify-content: start;
+    padding: 0rem 0rem;
+    height: 100vh;
     overflow: hidden;
     top: 5rem;
     width: 0;
@@ -110,13 +115,14 @@ h3 strong {
     display: flex;
     transition: width 2.5 ease;
   }
-  .button {
-    margin-right: 20%;
+  .navbar .button {
+   
   }
-  .links li {
+  .navbar .links li {
     text-align: center;
     width: 200px;
     margin: 0rem auto;
+    margin: 2rem auto;
     /* min-height: 40px; */
   }
 
