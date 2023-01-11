@@ -8,8 +8,7 @@
   padding-top: 0.5rem;
 }
 .navbar .button{
-  display: block;
-  margin-left: 70%;
+  
 }
 
 h3 strong {
@@ -58,6 +57,10 @@ h3 strong {
 .navbar .contact li {
   text-decoration: none;
   list-style-type: none;
+}
+.navbar .button {
+position:absolute;
+right: 5%;
 }
 .toggle-btn {
   width: 45px;
@@ -143,8 +146,8 @@ h3 strong {
   }
   .buger {
     position: absolute;
-    top: 40%;
-    left: 87%;
+    top: 50%;
+    right: 15%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
