@@ -103,12 +103,10 @@ textarea {
 
   .story .contact.form {
     margin:5rem auto; 
-  }
-}
-
-@media (max-width: 768px) {
-
-  .story .contact.form{
     width:330px;
   }
+
+  
 }
+
+

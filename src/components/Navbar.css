@@ -147,7 +147,7 @@ right: 5%;
   .buger {
     position: absolute;
     top: 50%;
-    right: 15%;
+    right: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -169,4 +169,8 @@ right: 5%;
     position: relative;
     transform-origin: 1px;
   }
+
+
+
+
 }
