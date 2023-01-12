@@ -84,6 +84,7 @@ textarea {
 
 .mail.address,
 .phone.num {
+  margin: 2rem 0rem;
   text-align: center;
   font-size: 20px;
 }
@@ -122,4 +123,10 @@ textarea {
 }
 }
 
+@media (max-width: 425px) {
+  .story .contact.form {
+    margin:5rem auto; 
+    width: 90%;
+  }
+}
 
