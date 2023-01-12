@@ -30,12 +30,14 @@ h3 {
   border-radius: 20px;
   color: var(--h2);
   margin-top: 11rem;
-  margin-bottom: 9rem;
+ 
 }
 form {
   width: 400px;
   margin: auto;
   padding: 10px;
+  margin-bottom: 9rem;
+
 }
 
 input,
@@ -103,10 +105,21 @@ textarea {
 
   .story .contact.form {
     margin:5rem auto; 
-    width:330px;
+    width:300px;
+  }
+  .story .contact.form .submite{
+    display: flex;
+    flex-direction: column;
+  }
+  button{
+    width: 50%;
   }
 
-  
+  #email,
+textarea {
+  width: 60%;
+  color: #c4c4c4;
+}
 }
 
 

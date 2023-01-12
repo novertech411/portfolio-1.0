@@ -63,9 +63,13 @@ const Contact = () => {
                 placeholder="Subject"
               />
             </div>
-
+            <div className="submite">
             <textarea name="" placeholder="Write something.."></textarea>
             <button  onClick={"clickme"}>submite</button>
+
+            </div>
+
+           
           </form>
         </div>
       </div>
